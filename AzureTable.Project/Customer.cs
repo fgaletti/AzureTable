@@ -13,7 +13,5 @@ namespace AzureTable.Project
         public string State { get; set; }
         public string Phone { get; set; }
 
-        public int CountryId { get; set; }  
-
     }
 }
