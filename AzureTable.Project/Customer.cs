@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AzureTable.Project
 {
-    class Customer
+    public  class Customer
     {
     }
 }
