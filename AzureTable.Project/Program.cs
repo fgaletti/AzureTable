@@ -18,10 +18,10 @@ namespace AzureTable.Project
             CloudTable table = _tableClient.GetTableReference(tableName);
             Orders orders = new Orders()
             {
-                RowKey = "08",
+                RowKey = "09",
                 PartitionKey = partitionKey,
-                name = "Peter",
-                Quantity = 35,
+                name = "Pet09",
+                Quantity = 99,
                 UnitPrice = 77
             };
 
