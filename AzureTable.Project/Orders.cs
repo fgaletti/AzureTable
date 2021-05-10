@@ -11,6 +11,7 @@ namespace AzureTable.Project
         public int Quantity { get; set; }
         public double UnitPrice { get; set; }
         public string name { get; set; }
+        public string address1 { get; set; }
         public Orders()
         {
 
