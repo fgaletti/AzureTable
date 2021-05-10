@@ -4,7 +4,10 @@ using System.Text;
 
 namespace AzureTable.Project
 {
-    class Customer
+    public  class Customer
     {
+        public int Id { get; set; }  
+
+        public string name { get; set; }  
     }
 }
