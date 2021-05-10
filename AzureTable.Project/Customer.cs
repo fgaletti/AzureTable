@@ -12,5 +12,7 @@ namespace AzureTable.Project
         public int CityId { get; set; }
         public string State { get; set; }
 
+        public int CountryId { get; set; }  
+
     }
 }
