@@ -10,6 +10,7 @@ namespace AzureTable.Project
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int CityId { get; set; }
+        public string State { get; set; }
 
     }
 }
