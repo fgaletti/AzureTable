@@ -6,5 +6,9 @@ namespace AzureTable.Project
 {
     class Person
     {
+        public Person()
+        {
+
+        }  
     }
 }
